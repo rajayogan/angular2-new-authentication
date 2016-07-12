@@ -13,8 +13,5 @@ import {
 import { SecondpageComponent } from './secondpage.component';
 
 describe('Component: Secondpage', () => {
-  it('should create an instance', () => {
-    let component = new SecondpageComponent();
-    expect(component).toBeTruthy();
-  });
+  
 });

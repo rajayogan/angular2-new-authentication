@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   moduleId: module.id,
@@ -8,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondpageComponent implements OnInit {
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit() {
   }
+
+logout(){
+  window.localStorage.removeItem('auth_key');
+  this.router.navigate(['/first']);
+}
 
 }

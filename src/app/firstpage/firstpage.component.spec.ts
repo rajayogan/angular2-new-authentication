@@ -13,8 +13,5 @@ import {
 import { FirstpageComponent } from './firstpage.component';
 
 describe('Component: Firstpage', () => {
-  it('should create an instance', () => {
-    let component = new FirstpageComponent();
-    expect(component).toBeTruthy();
-  });
+  
 });
