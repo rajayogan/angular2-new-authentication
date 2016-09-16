@@ -1,6 +1,6 @@
 {
-  "name": "angnewrouter",
-  "version": "0.0.0",
+  "name": "angular2-new-authentication",
+  "version": "1.0.0",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
@@ -13,24 +13,25 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "2.0.0-rc.4",
-    "@angular/compiler": "2.0.0-rc.4",
-    "@angular/core": "2.0.0-rc.4",
-    "@angular/forms": "0.2.0",
-    "@angular/http": "2.0.0-rc.4",
-    "@angular/platform-browser": "2.0.0-rc.4",
-    "@angular/platform-browser-dynamic": "2.0.0-rc.4",
-    "@angular/router": "3.0.0-alpha.8",
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "@angular/upgrade": "2.0.0",
     "es6-shim": "0.35.1",
-    "reflect-metadata": "0.1.3",
-    "rxjs": "5.0.0-beta.6",
-    "systemjs": "0.19.26",
-    "zone.js": "0.6.12"
+    "reflect-metadata": "0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.38",
+    "zone.js": "0.6.23"
   },
   "devDependencies": {
-    "angular-cli": "1.0.0-beta.9",
+    "angular-cli": "1.0.0-beta.10",
     "codelyzer": "0.0.20",
-    "ember-cli-inject-live-reload": "1.4.0",
+    "ember-cli-inject-live-reload": "1.4.1",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
     "karma": "0.13.22",
@@ -39,7 +40,7 @@
     "protractor": "3.3.0",
     "ts-node": "0.5.5",
     "tslint": "3.11.0",
-    "typescript": "1.8.10",
-    "typings": "0.8.1"
+    "typescript": "2.0.2",
+    "typings": "1.3.3"
   }
 }

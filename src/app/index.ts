@@ -1,6 +1,8 @@
 export * from './environment';
 export * from './app.component';
-export * from './routes';
-export * from './authmanager';
-export * from './auth.service';
-
+export * from './app.module';
+export * from './app.routes';
+export * from './app.routing';
+export * from './auth';
+export * from './login';
+export * from './dashboard';
