@@ -1,4 +1,4 @@
-export class AngnewrouterPage {
+export class AppPage {
   navigateTo() {
     return browser.get('/');
   }

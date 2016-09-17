@@ -1,15 +1,15 @@
 /* tslint:disable:no-unused-variable */
+import { TestBed, inject } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
 
-import {
-  beforeEach, beforeEachProviders,
-  describe, xdescribe,
-  expect, it, xit,
-  async, inject
-} from '@angular/core/testing';
 import { AuthService } from './auth.service';
 
 describe('Auth Service', () => {
-  beforeEachProviders(() => [AuthService]);
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [AuthService]
+    });
+  });
 
   it('should ...',
       inject([AuthService], (service: AuthService) => {

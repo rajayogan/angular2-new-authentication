@@ -1,13 +1,13 @@
-import { AngnewrouterPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('angnewrouter App', function() {
-  let page: AngnewrouterPage;
+describe('\'Angular2 New Authentication App\'', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new AngnewrouterPage();
+    page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying \'app works\'', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('app works!');
   });

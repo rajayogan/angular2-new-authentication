@@ -1,11 +1,6 @@
-import { bootstrap } from '@angular/platform-browser-dynamic';
-import { enableProdMode } from '@angular/core';
-import { AppComponent, environment, AppRouterProvider, AuthManager, AuthService } from './app/';
-import { HTTP_PROVIDERS } from '@angular/http';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app';
 
-if (environment.production) {
-  enableProdMode();
-}
+const platform = platformBrowserDynamic();
 
-bootstrap(AppComponent, [AppRouterProvider, AuthManager, AuthService, HTTP_PROVIDERS]);
-
+platform.bootstrapModule(AppModule);

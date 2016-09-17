@@ -1,23 +1,25 @@
 /* tslint:disable:no-unused-variable */
 
-import {
-  beforeEach, beforeEachProviders,
-  describe, xdescribe,
-  expect, it, xit,
-  async, inject
-} from '@angular/core/testing';
+import { TestBed, ComponentFixture, inject } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
+import { Component } from '@angular/core';
+
 import { AppComponent } from './app.component';
 
-beforeEachProviders(() => [AppComponent]);
+describe('App: angular2-new-authentication', () => {
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [AppComponent]
+    });
+  });
 
-describe('App: Angnewrouter', () => {
   it('should create the app',
-      inject([AppComponent], (app: AppComponent) => {
-    expect(app).toBeTruthy();
-  }));
+    inject([AppComponent], (app: AppComponent) => {
+      expect(app).toBeTruthy();
+    }));
 
   it('should have as title \'app works!\'',
-      inject([AppComponent], (app: AppComponent) => {
-    expect(app.title).toEqual('app works!');
-  }));
+    inject([AppComponent], (app: AppComponent) => {
+      expect(app.title).toEqual('app works!');
+    }));
 });
